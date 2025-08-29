@@ -1,9 +1,9 @@
-ETL Pipeline using Pandas & Scikit-Learn
+### ETL Pipeline using Pandas & Scikit-Learn
 
 This project implements an ETL (Extract → Transform → Load) pipeline using Pandas and Scikit-Learn.
 The pipeline automates dataset preprocessing including missing value handling, encoding categorical features, scaling numerical features, splitting into train/test sets, and saving processed data.
 
-Features
+### Features
 
 Extract → Reads raw dataset (CSV).
 
@@ -19,37 +19,26 @@ Splits data into training/testing sets.
 
 Load → Saves processed data as CSV files in processed_data/.
 
-Project Structure
-PROJECT/
-│
-├── etl_pipeline.py       # Main ETL script
-├── README.md             # Documentation
-├── titanic.csv           # Example dataset (raw data)
-└── processed_data/       # Output folder with transformed datasets
-    ├── X_train.csv
-    ├── X_test.csv
-    ├── y_train.csv
-    └── y_test.csv
 
-How to Run
-1. Clone or download the project
-git clone <your-repo-link>
+### How to Run
+### 1. Clone or download the project
+git clone [<ETL-Pipeline>](https://github.com/22BCE8093-Eswar/ETL-Pipeline)
 cd PROJECT
 
-2. Install dependencies
+### 2. Install dependencies
 pip install pandas scikit-learn
 
-3. Download example dataset
+### 3. Download example dataset
 
 Titanic dataset (CSV):
-Download Link
+Download Link: https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv?utm_source=chatgpt.com
 
 Save it as titanic.csv inside the project folder.
 
-4. Run the pipeline
+### 4. Run the pipeline
 python etl_pipeline.py
 
-✅ Output
+**Output**
 
 After running, processed files will be saved in processed_data/:
 
@@ -61,7 +50,7 @@ y_train.csv → Training labels
 
 y_test.csv → Testing labels
 
-🛠️ Customization
+**Customization**
 
 Change dataset file path inside etl_pipeline.py:
 
@@ -71,7 +60,7 @@ target_col = "Survived"
 
 Replace with your dataset and target column.
 
-Example
+**Example**
 
 Using Titanic dataset (titanic.csv, target = Survived):
 
