@@ -22,11 +22,15 @@ Load → Saves processed data as CSV files in processed_data/.
 
 ### How to Run
 ### 1. Clone or download the project
+````
 git clone https://github.com/22BCE8093-Eswar/ETL-Pipeline
 cd PROJECT
+````
 
 ### 2. Install dependencies
+````
 pip install pandas scikit-learn
+````
 
 ### 3. Download example dataset
 
@@ -35,7 +39,10 @@ Titanic dataset (CSV): https://raw.githubusercontent.com/datasciencedojo/dataset
 Save it as titanic.csv inside the project folder.
 
 ### 4. Run the pipeline
+````
 python etl_pipeline.py
+````
+
 
 **Output**
 
@@ -52,10 +59,10 @@ y_test.csv → Testing labels
 **Customization**
 
 Change dataset file path inside etl_pipeline.py:
-
+````
 raw_file = "titanic.csv"
 target_col = "Survived"
-
+````
 
 Replace with your dataset and target column.
 
