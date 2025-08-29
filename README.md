@@ -22,7 +22,7 @@ Load → Saves processed data as CSV files in processed_data/.
 
 ### How to Run
 ### 1. Clone or download the project
-git clone [<ETL-Pipeline>](https://github.com/22BCE8093-Eswar/ETL-Pipeline)
+git clone https://github.com/22BCE8093-Eswar/ETL-Pipeline
 cd PROJECT
 
 ### 2. Install dependencies
@@ -30,8 +30,7 @@ pip install pandas scikit-learn
 
 ### 3. Download example dataset
 
-Titanic dataset (CSV):
-Download Link: https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv?utm_source=chatgpt.com
+Titanic dataset (CSV): https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv?utm_source=chatgpt.com
 
 Save it as titanic.csv inside the project folder.
 
