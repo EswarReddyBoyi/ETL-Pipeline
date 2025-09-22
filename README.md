@@ -23,7 +23,7 @@ Load → Saves processed data as CSV files in processed_data/.
 ### How to Run
 ### 1. Clone or download the project
 ````
-git clone https://github.com/22BCE8093-Eswar/ETL-Pipeline
+git clone https://github.com/EswarReddyBoyi/ETL-Pipeline
 cd PROJECT
 ````
 
